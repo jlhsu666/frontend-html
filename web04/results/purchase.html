@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>無標題文件</title>
+<script type="text/javascript">
+function MM_popupMsg() { //v1.0
+  confirm('流行皮件選購確認：\n\n●真皮皮包： \n●真皮短夾：');
+}
+</script>
 </head>
 
 <body>
@@ -42,7 +47,11 @@
       </tr>
     </tbody>
   </table>
-  <p><br>
+  <p>
+    <span style="text-align: center">
+    <input name="submit" type="submit" id="submit" onClick="MM_popupMsg()" value="送出">
+    <input type="reset" name="reset" id="reset" value="重置">
+    </span><br>
   </p>
 </form>
 </body>
